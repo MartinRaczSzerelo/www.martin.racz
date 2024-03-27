@@ -21,3 +21,5 @@
 03.01 - A "Rólam", "Kezdőlap" és az "Egyebek" lap frissült. A képek és videók külön mappában lettek tárolva.
 
 03.15 - A "kezdőlap" lapon a "kiemeltek" rész frissült egy új képpel, ami egy újabb alkotás.
+
+03.27 - A "Galéria" lap megkezdte működését befejezetlenül.
