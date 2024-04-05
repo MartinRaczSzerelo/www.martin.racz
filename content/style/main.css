@@ -1,0 +1,54 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url('https://martinraczszerelo.github.io/www.martin.racz/content/fonts/Bahnschrift_Regular.ttf');
+}
+
+@font-face {
+  font-family: arial;
+  src: url('https://martinraczszerelo.github.io/www.martin.racz/content/fonts/arial.ttf');
+}
+
+body {
+  background-image: url('https://martinraczszerelo.github.io/www.martin.racz/content/back.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.center-logo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+.center-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+.bar {
+    width: 100%;
+  }
+
+.cell {
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 4px;
+  }
+
+a {
+    color: #008
+}
+
+a:hover {
+    color: #04F
+}
+
+a:active {
+    color: #FFF;
+    background-color: #F00
+}
