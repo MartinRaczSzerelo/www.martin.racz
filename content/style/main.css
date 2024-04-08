@@ -19,7 +19,9 @@ body {
         max-width: 100%;
         height: auto;
         display: block;
-        margin: 0 auto;
+        padding: top;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 .center-img {
@@ -29,26 +31,64 @@ body {
     }
 
 .bar {
+    max-width: 900px;
     width: 100%;
-  }
+    height: auto;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .bar {
+        table-layout: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bar {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+}
 
 .cell {
-    border-collapse: collapse;
     border-radius: 10px;
     border: 2px solid #000;
     text-align: center;
-    padding: 4px;
+    padding: 3px;
   }
 
-a {
-    color: #008
+.link {
+    color: #008;
+    transition: font-size 0.3s ease;
 }
 
-a:hover {
-    color: #04F
+.link:hover {
+    color: #04F;
+    font-size: 120%
 }
 
-a:active {
+.link:active {
     color: #FFF;
-    background-color: #F00
+    background-color: #F00;
+}
+
+.bar-link {
+    color: #008;
+    transition: font-size 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 600px) {
+.bar-link:hover {
+    color: #00F;
+    font-size: 150%;
+    font-weight: bold
+}
+}
+
+.bar-link:active {
+    color: #FFF;
+    background-color: #F00;
 }
