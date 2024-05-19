@@ -1,0 +1,9 @@
+.thumbnail-click {
+width: 300px;
+height: 100%;
+transition: ease-in-out 0.2s
+}
+
+.thumbnail-click:hover {
+transform: scale(0.8)
+}
