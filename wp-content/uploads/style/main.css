@@ -16,10 +16,6 @@ body {
   background-size: 100% 100%;
 }
 
-.bar {
-background-color: #fff
-}
-
 .link {
     color: #008;
     transition: font-size 0.3s ease;
@@ -33,6 +29,11 @@ background-color: #fff
 .link:active {
     color: #FFF;
     background-color: #F00;
+}
+
+.bar {
+background-color: #fff;
+font-family: bahnschrift
 }
 
 .bar-link {
@@ -51,7 +52,7 @@ background-color: #f00
 .heading-main {
 color: #fff;
 text-align: center;
-padding-top: 120px;
+padding-top: 100px;
 font-size: 250%;
 font-family: arial
 }
@@ -68,4 +69,12 @@ transition: ease-in-out 0.2s transform;
 
 .thumbnail:hover {
 transform: scale(0.8)
+}
+
+.dropdown {
+float: left
+}
+
+.artwork {
+max-width: 100%
 }
